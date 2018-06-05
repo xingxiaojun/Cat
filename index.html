@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap 实例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+    <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+ 
+  <!-- 指示符 -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+ 
+  <!-- 轮播图片 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="http://static.runoob.com/images/mix/img_fjords_wide.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="http://static.runoob.com/images/mix/img_nature_wide.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="http://static.runoob.com/images/mix/img_mountains_wide.jpg">
+    </div>
+  </div>
+ 
+  <!-- 左右切换按钮 -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+ 
+</div>
+<div class="jumbotron text-center">
+  <h1>我的第一个 Bootstrap 页面</h1>
+  <p>重置浏览器大小查看效果!</p> 
+</div>
+ 
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+  <h2>圆角图片</h2>
+  <p>.rounded 类可以让图片显示圆角效果：</p>            
+  <img src="http://static.runoob.com/images/mix/cinqueterre.jpg" class="rounded" alt="Cinque Terre" width="304" height="236"> 
+    </div>
+    <div class="col-sm-4">
+      <h3>第二列</h3>
+      <p>菜鸟教程..</p>
+      <p>学的不仅是技术，更是梦想！！！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>第三列</h3> 
+      <p>菜鸟教程..</p>
+      <p>学的不仅是技术，更是梦想！！！</p>
+    </div>
+        <div class="col-sm-4">
+      <h3>第三列</h3> 
+      <p>菜鸟教程..</p>
+      <p>学的不仅是技术，更是梦想！！！</p>
+    </div>
+        <div class="col-sm-4">
+      <h3>第三列</h3> 
+      <p>菜鸟教程..</p>
+      <p>学的不仅是技术，更是梦想！！！</p>
+    </div>
+        <div class="col-sm-4">
+      <h3>第三列</h3> 
+      <p>菜鸟教程..</p>
+      <p>学的不仅是技术，更是梦想！！！</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
